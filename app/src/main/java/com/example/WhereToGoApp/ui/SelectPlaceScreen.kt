@@ -25,7 +25,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.WhereToGoApp.R
 import com.example.WhereToGoApp.data.DataSource
-import com.example.WhereToGoApp.ui.theme.WhereToGoAppTheme
+import com.example.compose.WhereToGoAppTheme
 
 @Composable
 fun SelectPlaceScreen(
@@ -73,7 +73,6 @@ fun SelectPlaceButton(
             .padding(3.dp),
         shape = RoundedCornerShape(cornerRadius),
         colors = ButtonDefaults.buttonColors(MaterialTheme.colorScheme.primary)
-
     ) {
         Text(
             text = stringResource(labelResourceId),
