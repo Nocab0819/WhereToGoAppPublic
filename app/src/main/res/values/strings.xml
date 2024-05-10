@@ -10,6 +10,7 @@
     <string name="name_8">國立臺灣師範大學</string>
     <string name="name_9">淡江大學</string>
     <string name="name_10">國立中正大學</string>
+    <string name="name_11">⊠⊠⊠⊠⊠ ⊠⊠⊠⊠⊠\n ⊠⊠⊠⊠ ⊠⊠⊠ ⊠⊠</string>
     <string name="introduction">Introduction</string>
     <string name="introduction_1">國立成功大學是一所位於臺南市東區的公立研究型大學，因紀念延平郡王鄭成功開臺之功而得此名。 </string>
     <string name="introduction_2">享譽盛名的研究型大學，於 1928 年創立，有 7 個校地和植物園。國立臺灣大學為臺灣學生人數最多的大專院校，是臺灣第一所高等教育機構，也是臺灣學生人數最多的大專院校。</string>
@@ -21,7 +22,9 @@
     <string name="introduction_8">國立臺灣師範大學是位於臺灣臺北市大安區的國立綜合型大學，也是臺灣第一所師範大學，前身為日治時期創立的臺灣總督府臺北高等學校。</string>
     <string name="introduction_9">淡江大學是一所位於新北市淡水區的私立綜合大學，前身為1950年由居正伉儷、鄒魯、張鳴與張建邦父子共同創辦的「淡江英語專科學校」。</string>
     <string name="introduction_10">國立中正大學是一所位於臺灣嘉義縣民雄鄉的國立大學，為臺灣綜合大學系統的成員，其設有文、理、社會科學、工、管理、法、教育七學院，建於1986年。</string>
+    <string name="introduction_11">\t\t\t\t⊠⊠⊠⊠⊠ ⊠⊠⊠⊠⊠ ⊠⊠⊠ ⊠⊠⊠ ⊠⊠⊠⊠</string>
     <string name="next">在地圖上查看</string>
+    <string name="special">不要點擊:(</string>
     <string name="back_button">Back</string>
     <string name="title_activity_maps">MapsActivity</string>
 </resources>

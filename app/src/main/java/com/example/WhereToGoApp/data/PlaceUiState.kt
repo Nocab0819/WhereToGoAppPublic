@@ -13,4 +13,5 @@ data class PlaceInformation(
     @StringRes val nameResourceId: Int,
     @StringRes val introductionResourceId: Int,
     val url: String,
-)
+    @StringRes val function: Int,
+    )

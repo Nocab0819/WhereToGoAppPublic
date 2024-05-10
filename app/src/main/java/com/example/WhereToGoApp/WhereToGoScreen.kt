@@ -119,7 +119,7 @@ fun WhereToGoApp(
                 IntroductionScreen(
                     subtotal = uiState.placeNumber,
                     onNextButtonClicked = { coordinate: String ->
-                        openMap(context, coordinate = coordinate)
+                        openURL(context, url = coordinate)
                     },
                     modifier = Modifier.fillMaxHeight()
                 )
@@ -128,9 +128,19 @@ fun WhereToGoApp(
     }
 }
 
+/*單純開啟Map功能，但因為想要加其他東西所以改成用下面的openURL來直接開連結*/
 private fun openMap(context: Context, coordinate: String) {
     val gmmIntentUri = Uri.parse(coordinate)
     val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
     mapIntent.setPackage("com.google.android.apps.maps")
     context.startActivity(mapIntent)
+}
+
+fun openURL(context: Context, url: String) {
+    val intent = Intent(Intent.ACTION_VIEW)
+
+    intent.data =
+        Uri.parse(url)
+
+    startActivity(context, intent, null)
 }
