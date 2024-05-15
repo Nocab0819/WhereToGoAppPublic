@@ -1,0 +1,5 @@
+WhereToGoAppURL
+是使用URL直接連結到該地點的Google Map頁面的版本（內含彩蛋）
+
+另一個連結的檔案"WhereToGoAppCoordinate"
+是使用座標連結到Google Map的版本
